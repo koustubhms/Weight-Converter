@@ -15,7 +15,7 @@ document.getElementById("swap-btn1").addEventListener('click',(e)=>{
     let grams=(input.value*0.0022046).toFixed(2); 
     let dive=document.createElement('div');
     dive.id='cards1';
-    dive.innerText=(input.value)+'grams = '+grams+" pounds";
+    dive.innerText=(input.value)+' grams = '+grams+" pounds";
     document.getElementById('cardblk1').appendChild(dive);
     let button=document.createElement('button');
     button.id='resetbtn1';
@@ -38,7 +38,7 @@ document.getElementById("swap-btn2").addEventListener('click',(e)=>{
     let grams2=(input.value*2.2046).toFixed(2); 
     let dive2=document.createElement('div');
     dive2.id='cards2';
-    dive2.innerText=input.value+'grams = '+grams2+" Kilogram";
+    dive2.innerText=input.value+' Kilogram = '+grams2+" pounds";
     document.getElementById('cardblk2').appendChild(dive2);
     let button=document.createElement('button');
     button.id='resetbtn2';
@@ -59,7 +59,7 @@ document.getElementById("swap-btn3").addEventListener('click',(e)=>{
     let grams3=(input.value/16).toFixed(2); 
     let dive3=document.createElement('div');
     dive3.id='cards3';
-    dive3.innerText=input.value+'grams = '+grams3+" Ounces";
+    dive3.innerText=input.value+' Ounces = '+grams3+" pounds";
     document.getElementById('cardblk3').appendChild(dive3);
     let button=document.createElement('button');
     button.id='resetbtn3';
