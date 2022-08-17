@@ -4,7 +4,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.heading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .wrapper{
     background-color: #051937;
  height: 100vh;
